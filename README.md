@@ -1,4 +1,4 @@
-# covid19SQLChallenges
+# COVID-19 SQL Challenges
 Manipulations over the WHO's Covid-19 Database and a script for visualising the total number of deaths in each country since the pandemic started
 
 The challenges include:
