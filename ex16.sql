@@ -1,0 +1,1 @@
+SELECT continentExp,dateRep,Abs(cases),Abs(deaths) FROM Cases LEFT JOIN Countries ON Countries.geoId = Cases.geoId LEFT JOIN Continents ON Continents.countriesAndTerritories = Countries.countriesAndTerritories ORDER BY continentexp,(substr(dateRep, 7, 4) || '/' || substr(dateRep, 4, 2) || '/' || substr(dateRep, 1, 2)) ASC;

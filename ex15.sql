@@ -1,0 +1,1 @@
+SELECT dateRep,Abs(cases) FROM Cases WHERE geoId='UK' ORDER BY (substr(dateRep, 7, 4) || '/' || substr(dateRep, 4, 2) || '/' || substr(dateRep, 1, 2)) ASC;

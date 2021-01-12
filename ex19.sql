@@ -1,0 +1,2 @@
+SELECT daterep, SUM(Abs(deaths)) OVER (ORDER by (substr(dateRep, 7, 4) || '/' || substr(dateRep, 4, 2) || '/' || substr(dateRep, 1, 2)) ASC),SUM(Abs(cases)) OVER (ORDER by (substr(dateRep, 7, 4) || '/' || substr(dateRep, 4, 2) || '/' || substr(dateRep, 1, 2)) ASC) FROM Cases WHERE geoId="UK"; 
+    

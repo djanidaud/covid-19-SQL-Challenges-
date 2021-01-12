@@ -1,0 +1,1 @@
+SELECT countriesandterritories,round((Sum(Abs(deaths))*100.0)/Abs(Sum(Abs(cases))),3) FROM Cases LEFT JOIN Countries ON Countries.geoId = Cases.geoId GROUP BY countriesandterritories ORDER BY 2 DESC LIMIT 10;

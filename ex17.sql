@@ -1,0 +1,1 @@
+SELECT countriesandterritories,round((Sum(Abs(cases))*100.0)/Abs(popdata2018),3),round((Sum(Abs(deaths))*100.0)/Abs(popdata2018),3) FROM Cases LEFT JOIN Countries ON Countries.geoId = Cases.geoId GROUP BY countriesAndTerritories;

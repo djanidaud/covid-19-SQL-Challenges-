@@ -1,0 +1,1 @@
+SELECT Sum(Abs(cases)),Sum(Abs(deaths)) FROM Cases;
