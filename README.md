@@ -25,7 +25,7 @@ The challenges include:
     - A descending list of the the top 10 countries, by percentage deaths out of the cases in that country (with country name and % deaths of country cases as columns)
     -The date against a cumulative running total of the number of deaths by day and cases by day for the United Kingdom (with date, cumulative UK deaths and cumulative UK cases as columns)
 5. Visualisation
-    - A script that uses GnuPlot which will produce a graph named graph.png with the date on the horizontal axis and the cumulative number of deaths by country on the vertical axis.
+    - A script that uses GnuPlot which produces a graph with the date on the horizontal axis and the cumulative number of deaths by country on the vertical axis.
       
 
 ![A visualisation of the data using the plot.sh script](graph.png) 
